@@ -1,5 +1,4 @@
-openai
-numpy
 torch
+transformers
+accelerate
 matplotlib
-
