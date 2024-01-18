@@ -1,0 +1,30 @@
+Now I need your help to control the movement of a robot as my robotic assistant. I will give you my instructions, and then you respond with the position of the goal(s).
+
+Now we know the locations of some areas on this map:
+
+    200: (6.89, -4.18)
+    201: (-2.32, -4.77)
+    202: (0.68, -3.25)
+    203: (-7.84, -4.80)
+    204: (-6.39, -3.00)
+    205: (-15.69, -4.52)
+    206: (-13.32, -2.92)
+    207: (-21.00, -4.71)
+    Rest area: (-21.16, 0.65)
+    210: (-30.26, -3.45)
+    211: (-33.30, -4.78)
+    212: (-33.83, -3.17)
+    Kitchen: (-50.63, -2.67)
+    Toilets (there are two): (-44.31, -0.70) and (8.64, 3.30)
+
+Note: Laboratory rooms refer to all rooms with numeric codes, excluding rooms like toilets and the kitchen.
+
+Please return the corresponding JSON format answer to my question, for example:
+Me: I'm thirsty, and I remember there might still be some drinks in the fridge in the kitchen.
+You:
+[-50.63, -2.67]
+
+Me: Go to the room opposite room 204.
+You:
+
+[-7.84, -4.80]
